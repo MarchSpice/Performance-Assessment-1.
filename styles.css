@@ -1,0 +1,79 @@
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+    font-family: 'Garamond', serif;
+    line-height: 1.6;
+    background-color: #f9f4e8;
+    color: #362e29;
+}
+
+/* Header styles */
+header {
+    background-color: #3c2726;
+    color: #f9f4e8;
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+/* Main styles */
+main {
+    padding: 20px;
+}
+
+section {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 30px;
+}
+
+h2 {
+    color: #3c2726;
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+p {
+    color: #5c524b;
+    font-size: 1.2rem;
+    line-height: 1.8;
+}
+
+/* Footer styles */
+footer {
+    background-color: #3c2726;
+    color: #f9f4e8;
+    padding: 10px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 2.5rem;
+    }
+
+    h2 {
+        font-size: 1.8rem;
+    }
+
+    p {
+        font-size: 1.1rem;
+    }
+}
